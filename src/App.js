@@ -1,11 +1,12 @@
 import "./App.css";
+import Layout from "./components/Layout/index";
 
 function App() {
   return (
     <div>
-      <h1 style={{ padding: "40px", backgroundColor: "#e6f2ff" }}>
-        Admin Dashboard
-      </h1>
+      <Layout>
+        <h1>hello world</h1>
+      </Layout>
     </div>
   );
 }
